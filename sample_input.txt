@@ -1,0 +1,5 @@
+3
+Laptop 1000.0 2
+Mouse 25.0 6
+Keyboard 75.0 3
+bulk
