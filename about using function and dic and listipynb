@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNEnrYPIRzIhpvqBIZH6u2i",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Madhusudhan1914/E-commerece-java/blob/main/about%20using%20function%20and%20dic%20and%20listipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 12,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A3yezQk_U97u",
+        "outputId": "534352ff-123e-4bdb-b3c4-0d47c8dfd161"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the fruits name  grapes\n",
+            "{'fruits_one': 'grapes', 'fruits_two': 'mangoes'}\n"
+          ]
+        }
+      ],
+      "source": [
+        "import random\n",
+        "\n",
+        "def fruits():\n",
+        "  fruits_1=input(\"enter the fruits name  \")\n",
+        "  options = [\"mangoes\",\"banana\",\"apples\"]\n",
+        "  fruits_2= random.choice(options)\n",
+        "  choice = {\"fruits_one\" : fruits_1,\"fruits_two\" : fruits_2}\n",
+        "  return choice\n",
+        "choice = fruits()\n",
+        "print(choice)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "4hZDAXtEWbs0"
+      }
+    }
+  ]
+}
